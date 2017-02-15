@@ -1,6 +1,7 @@
-<!-- IMPORT partials/breadcrumbs.tpl -->
-<div widget-area="header"></div>
 <div class="users">
+
+	<!-- IMPORT partials/breadcrumbs.tpl -->
+
 	<div class="row">
 		<div class="col-lg-6">
 		<!-- IMPORT partials/users_list_menu.tpl -->

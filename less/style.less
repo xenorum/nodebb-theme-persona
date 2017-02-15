@@ -8,12 +8,12 @@ html {
 body {
 	@media (min-width: 979px)
 	{
-		padding-top: 70px;
+		//padding-top: 70px;
 	}
 
 	@media (max-width: 979px)
 	{
-		padding-top: 70px;
+		//padding-top: 70px;
 		padding-bottom: 50px;
 	}
 
@@ -72,6 +72,16 @@ a:hover, .btn-link:hover, .btn-link:active, .btn-link:focus {
 		-moz-opacity: 0;
 		opacity: 0;
 		-ms-filter:~"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	}
+
+	@media (min-width: 979px)
+	{
+		padding-top: 70px;
+	}
+
+	@media (max-width: 979px)
+	{
+		padding-top: 70px;
 	}
 }
 
@@ -203,10 +213,4 @@ a.permalink {
 
 .disabled a {
 	pointer-events: none;
-}
-
-@media (max-width: @screen-sm-max) {
-	.form-control {
-		font-size: 16px;
-	}
 }

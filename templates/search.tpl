@@ -22,7 +22,7 @@
 						</div>
 						<div class="col-md-2">
 							<label>&nbsp;</label>
-							<button type="submit" class="btn btn-primary form-control">[[global:search]]</button>
+							<button type="submit" class="btn btn-default form-control">[[global:search]]</button>
 						</div>
 					</div>
 				</div>
@@ -97,7 +97,7 @@
 							<div class="row">
 								<div class="col-md-6">
 									<select id="post-sort-by" class="form-control">
-										<option value="relevance">[[search:relevance]]</option>
+										<option value=""></option>
 										<option value="timestamp">[[search:post-time]]</option>
 										<option value="teaser.timestamp">[[search:last-reply-time]]</option>
 										<option value="topic.title">[[search:topic-title]]</option>
